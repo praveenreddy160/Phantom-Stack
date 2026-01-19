@@ -109,13 +109,14 @@
 #     print(content)
 
 
-with open("src/email_list.txt", encoding="utf-8", mode="r") as file:
-    content = file.readlines()  # readlines() creates a list of strings, one for each line
-    # Use list comprehension to strip the \n from each item
-    clean_content = [item.strip() for item in content]
-    print(clean_content)
+# with open("src/email_list.txt", encoding="utf-8", mode="r") as file:
+#     content = file.readlines()  # readlines() creates a list of strings, one for each line
+#     # Use list comprehension to strip the \n from each item
+#     clean_content = [item.strip() for item in content]
+#     print(clean_content)
 
     
     
 
-#
+add = lambda a,b:a+b
+print(add(2,3))
